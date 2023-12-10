@@ -91,12 +91,6 @@ for location in starting_locations:
 ## now find least common multiple of these, I don't know if there is a pre built algorithm for this but I will try by hand
 ## my approach is to find the lowest common multiple between location 1 & 2,then between this value and loc 3, then that and loc 4 etc
 
-# 1 - 15870
-# 2 - 968130
-# 3 - 76482348
-# 4 - 5124317382
-# 5 - 240842917000
-# 6 - 
 common_number = z_positions[0] ## the interval for location 1 is our first common_number
 for divisor in z_positions[1:]: ## skip the first one because we know the 'common multiple' here is the first value
     check = False ## this will be used to end the loop once check criteria is met
