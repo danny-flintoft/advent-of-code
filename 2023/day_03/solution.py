@@ -1,5 +1,5 @@
-input_data = open('day_3/input_1.txt', 'r').read().split('\n')
-test_data = open('day_3/test_input.txt', 'r').read().split('\n')
+input_data = open('day_03/input_1.txt', 'r').read().split('\n')
+test_data = open('day_03/test_input.txt', 'r').read().split('\n')
 
 ######################### part 1 #########################
 import re

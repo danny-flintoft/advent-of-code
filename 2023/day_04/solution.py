@@ -1,5 +1,5 @@
-input_data = open('day_4/input_1.txt', 'r').read().split('\n')
-test_data = open('day_4/test_input.txt', 'r').read().split('\n')
+input_data = open('day_04/input_1.txt', 'r').read().split('\n')
+test_data = open('day_04/test_input.txt', 'r').read().split('\n')
 
 ######################### part 1 #########################
 import re
@@ -41,7 +41,6 @@ card_dict = dict.fromkeys(range(1,len(data)+1),1)
 
 ## for each card, get matched count, and add 1 on to the dict value for each new card "won" from that card
 for a in data:    
-    print(card_dict)
     card_id = int(re.search(r'\d+', a).group()) ## get card id
     card_copies = card_dict[card_id]
     score = get_score(a) ## get score

@@ -1,5 +1,5 @@
-input_data = open('day_8/input_1.txt', 'r').read().split('\n')
-test_data = open('day_8/test_input.txt', 'r').read().split('\n')
+input_data = open('day_08/input_1.txt', 'r').read().split('\n')
+test_data = open('day_08/test_input.txt', 'r').read().split('\n')
 
 ######################### part 1 #########################
 import re
@@ -38,7 +38,7 @@ while location != 'ZZZ':
 print("part 1 answer: ", counter)
 
 ######################### part 2 #########################
-test_data = open('day_8/test_input_2.txt', 'r').read().split('\n')
+test_data = open('day_08/test_input_2.txt', 'r').read().split('\n')
 data = input_data
 
 ## after a bit of exploration I stumbled across a few pieces of info

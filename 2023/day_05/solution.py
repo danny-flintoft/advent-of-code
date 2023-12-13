@@ -1,5 +1,5 @@
-input_data = open('day_5/input_1.txt', 'r').read().split('\n\n') ## split on double break rather than single this time
-test_data = open('day_5/test_input.txt', 'r').read().split('\n\n')
+input_data = open('day_05/input_1.txt', 'r').read().split('\n\n') ## split on double break rather than single this time
+test_data = open('day_05/test_input.txt', 'r').read().split('\n\n')
 
 ######################### part 1 #########################
 data = input_data

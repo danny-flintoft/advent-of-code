@@ -1,5 +1,5 @@
-input_data = open('day_7/input_1.txt', 'r').read().split('\n')
-test_data = open('day_7/test_input.txt', 'r').read().split('\n')
+input_data = open('day_07/input_1.txt', 'r').read().split('\n')
+test_data = open('day_07/test_input.txt', 'r').read().split('\n')
 
 ######################### part 1 #########################
 import pandas as pd
