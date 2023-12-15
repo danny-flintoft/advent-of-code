@@ -56,7 +56,7 @@ data = [d.split('\n') for d in data]
 score = 0
 for a in data:
     print_grid()
-    o=100       
+    o=100 
     for i in range(len(a)):
         score += get_score(defect_target=1)
         
