@@ -64,7 +64,7 @@ length_of_pattern = len(pattern)
 matching_index = 200+(1000000000-200)%length_of_pattern ## starting from 200, waht would be the remainger when looping to 1 billion
 ans = scores[matching_index-1] ## offset by 1 because starts at 0 not 1
 
-print("part 1 answer:", ans)
+print("part 2 answer:", ans)
 
 
 
