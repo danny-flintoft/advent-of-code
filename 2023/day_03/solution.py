@@ -8,14 +8,6 @@ row_len = len(data[0])
 flat_data = ''.join(data)
 max_len = len(flat_data)
 
-## general approach
-# flatten data into 1 line
-# use regex to find all number matches
-# get indexes of each match, offset by 1 either side, and by the legnth of 1 row in each direction
-# this gives the index of the match + all adjacent cells
-# get the values in all of these cells
-# check if any of them are symbols, if they are, add the matched number to the running count
-
 matches = re.finditer("\d+",flat_data) ## find all numbers  and cycle through them
 count=0
 for m in matches:
@@ -31,15 +23,6 @@ data = input_data
 row_len = len(data[0])
 flat_data = ''.join(data)
 max_len = len(flat_data)
-
-## general approach
-# flatten data into 1 line
-# use regex to find all number matches
-# get indexes of each match, offset by 1 either side, and by the legnth of 1 row in each direction
-# this gives the index of the match + all adjacent cells
-# return the index of any '*' in adjacent cells
-# add gear's index + the matched number value to a dictionary (getting list of number values)
-# get prod of pairs, and add to running count
 
 ## getting geat numbers
 matches = re.finditer("\d+",flat_data) ## find all numbers  and cycle through them
