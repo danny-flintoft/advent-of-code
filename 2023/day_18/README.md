@@ -1,0 +1,1 @@
+uses the [shoelace formula](https://en.wikipedia.org/wiki/Shoelace_formula) to determine enclosed area, and [Pick's theorem](https://en.wikipedia.org/wiki/Pick%27s_theorem) to derive border+enclosed area amount.
