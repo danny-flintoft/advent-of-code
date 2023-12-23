@@ -69,6 +69,14 @@ print("part 1 answer:", score)
 ## general approach is to start at the 'A' and work backwards to see what batch would have landed here
 ## then count up permutations in the accepted batches
 
+## build category dictionary to access specific elements
+cat_dict = {
+    'x':0,
+    'm':1,
+    'a':2,
+    's':3
+    }
+
 ## define function augment our batch based on the rule
 ## rule can either be accepted or rejected, depending on where in the journey we are
 def reduce_batch(batch,rule):
