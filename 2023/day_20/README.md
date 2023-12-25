@@ -1,0 +1,2 @@
+part 1 - implemented logic based on rules, 1 function for each module type
+part 2 - some fiddly back calculating of module set up to determine that we needed to find the LCM of specific flip-flip modules being in a low state

@@ -3,11 +3,11 @@ test_data = open('day_12/test_input.txt', 'r').read().split('\n')
 
 ######################### part 1 #########################
 import re
-from itertools import permutations, groupby
+from itertools import groupby
 from sympy.utilities.iterables import multiset_permutations
 
 ## import and organise data
-data = input_data
+data = test_data
 records = [i.split()[0] for i in data]
 orders = [i.split()[1].split(',') for i in data]
 
