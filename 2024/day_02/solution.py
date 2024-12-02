@@ -43,7 +43,6 @@ print("part 1 answer:", ans)
 ans = 0
 for report in reports:
     variants = [report[:i] + report[i+1:] for i in range(len(report))]
-    variants.append(report)
     
     approved = 0
     for variant in variants:
