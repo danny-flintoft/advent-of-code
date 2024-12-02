@@ -27,8 +27,6 @@ def check_report(report):
     rule_2 = max(abs_diffs) > 3 or min(abs_diffs) < 1
     violation = rule_1 or rule_2
     return violation
-    
-
 
 ## run across all reports
 ans = 0
