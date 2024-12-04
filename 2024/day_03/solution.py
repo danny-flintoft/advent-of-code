@@ -11,7 +11,6 @@ import re
 regex = "mul\\([0-9]{1,3},[0-9]{1,3}\\)"
 matches = re.findall(regex,data)
 
-
 ## cycle through each - get prod of numbers and sum
 ans = 0
 for match_ in matches:
