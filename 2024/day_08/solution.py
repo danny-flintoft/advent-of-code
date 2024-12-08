@@ -5,7 +5,6 @@ data = input_data
 
 from itertools import combinations  
 ######################### part 1 #########################
-data
 
 ## build grid + copy of grid to track antinodes
 grid = {}
