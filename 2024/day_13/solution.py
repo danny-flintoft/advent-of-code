@@ -1,7 +1,7 @@
 dir_ = "2024/day_13/"
 input_data = open(dir_+'input_1.txt', 'r').read().split('\n\n')
 test_data = open(dir_+'test_input.txt', 'r').read().split('\n\n')
-data = test_data
+data = input_data
 
 import re
 from math import ceil
@@ -47,7 +47,6 @@ for row in data:
     costs, A_presses, B_presses = process_machine(machine)
     if costs:
         ans += min(costs)
-    print(costs)
 
 print("part 1 answer:", ans)
 
@@ -56,7 +55,7 @@ print("part 1 answer:", ans)
 ## solved part 2 using algebra
 
 def build_machine(row):
-    add = 0#10000000000000
+    add = 10000000000000
     machine = {}
     machine['A'] = tuple(int(x) for x in re.findall("[0-9]+",row[0]))
     machine['B'] = tuple(int(x) for x in re.findall("[0-9]+",row[1]))
@@ -84,9 +83,6 @@ ans = 0
 for row in data:
     machine = build_machine(row)
     cost, A_presses, B_presses = process_machine(machine)
-    print(machine)
-    print(cost, A_presses, B_presses)
-    print('\n')
     ans += cost
 
 print("part 2 answer:", ans)
