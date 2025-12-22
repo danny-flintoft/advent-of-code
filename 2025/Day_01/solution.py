@@ -3,8 +3,7 @@ input_data = open(dir_+'input_1.txt', 'r').read().split('\n')
 test_data = open(dir_+'test_input_2.txt', 'r').read().split('\n')
 
 ######################### part 1 #########################
-data = test_data
-
+data = input_data
 
 rotations = [int(x[1:]) if 'R' in x else -int(x[1:]) for x in data]
 
