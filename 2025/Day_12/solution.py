@@ -4,7 +4,7 @@ test_data = open(dir_+'test_input.txt', 'r').read().split('\n')
 
 ######################### part 1 #########################
 
-data = test_data
+data = input_data
 regions = [row for row in data if len(row) > 5]
 
 ans = 0
